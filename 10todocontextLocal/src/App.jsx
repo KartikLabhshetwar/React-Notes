@@ -38,7 +38,7 @@ function App() {
   return (
     <Todoprovider value={{ addTodo, todos, updatedTodo, deleteTodo , toggleComplete}}>
             <div className="bg-pri4 min-h-screen py-8">
-                <div className="w-full max-w-2xl mx-auto shadow-md rounded-lg px-4 py-3 text-pri3">
+                <div className="w-full max-w-2xl mx-auto shadow-md rounded-lg px-4 py-3 text-green-700">
                     <h1 className="text-2xl font-bold text-center mb-8 mt-2">To-Do List</h1>
                     <div className="mb-4">
                         {/* Todo form goes here */} 
